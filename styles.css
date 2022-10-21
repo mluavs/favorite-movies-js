@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    word-wrap: break-word;
+    gap: 0.5rem;
+}
+
+.title h2{
+    font-size: 24px;
+    font-family: 'Trispace', sans-serif;
+}
+
+.title p{
+    font-size: 18px;
+    font-family: 'Trispace', sans-serif;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:0.8rem;
+    font-family: 'Trispace';
+    font-size: 20px
+}
+
+.img-container{
+    display: flex;
+    max-width: 50vw;
+    max-height: 50vh;
+}
+
+.img-container img{
+    display: flex;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 30px;
+}
+
+.btn{
+    padding: 8px;
+    font-family: 'Trispace';
+    background-color: black;
+    border-radius: 10px;
+    color: antiquewhite;
+}
+
+.btn:hover{
+    background-color: antiquewhite;
+    color: black;
+    cursor: pointer;
+}
